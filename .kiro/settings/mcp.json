@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "frankfurter": {
+      "url": "https://mcp.frankfurter.dev/",
+      "disabled": false
+    }
+  }
+}

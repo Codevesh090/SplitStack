@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Tests on TypeScript File Save",
+      "trigger": "PostFileSave",
+      "description": "Runs the SplitStack test suite (npm test) whenever a .ts or .tsx file is saved. Reports pass/fail clearly. Does not modify any source files.",
+      "matcher": "\\.(ts|tsx)$",
+      "action": {
+        "type": "command",
+        "command": "echo \"--- SplitStack: running test suite ---\" && npm test && echo \"--- Tests passed ---\" || echo \"--- Tests FAILED ---\"",
+        "timeout": 60
+      }
+    }
+  ]
+}
