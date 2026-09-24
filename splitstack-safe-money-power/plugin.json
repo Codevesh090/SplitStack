@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "splitstack-safe-money",
+  "version": "1.0.0",
+  "description": "Reusable guidance for implementing safe bill-splitting and monetary calculations in TypeScript. Teaches integer-cent arithmetic, floor-division share splitting, the exact-sum invariant, input validation, purity constraints, and property-based testing strategies for financial code.",
+  "author": {
+    "name": "SplitStack"
+  },
+  "keywords": [
+    "money",
+    "bill-splitting",
+    "currency",
+    "integer-cents",
+    "rounding",
+    "financial-calculations",
+    "typescript",
+    "arithmetic",
+    "property-based-testing",
+    "invariants",
+    "exact-sum",
+    "penny-correction",
+    "floating-point",
+    "pure-function"
+  ],
+  "license": "MIT"
+}
